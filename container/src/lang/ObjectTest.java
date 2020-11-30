@@ -8,7 +8,14 @@ package lang;
 
 public class ObjectTest implements Cloneable{
     private SubObjectTest objectTest = new SubObjectTest();
+
+    /**
+     *
+     * @param args
+     * @throws CloneNotSupportedException
+     */
     public static void main(String[] args) throws CloneNotSupportedException {
+//        Object
         ObjectTest objectTest = new ObjectTest();
         System.out.println("原始对象:" + objectTest);
         System.out.println("原始对象属性:" + objectTest.getObjectTest());
